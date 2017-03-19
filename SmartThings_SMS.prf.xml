@@ -1,0 +1,33 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Profile sr="prof34" ve="2">
+		<cdate>1489801965692</cdate>
+		<clp>true</clp>
+		<edate>1489931785305</edate>
+		<id>34</id>
+		<mid0>38</mid0>
+		<nme>SmartThings SMS</nme>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">844647</Str>
+			<Str sr="arg2" ve="3"/>
+		</Event>
+	</Profile>
+	<Task sr="task38">
+		<cdate>1489921655121</cdate>
+		<edate>1489921670360</edate>
+		<id>38</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CoRE Notifier</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%SMSRB</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
