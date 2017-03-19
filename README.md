@@ -1,0 +1,1 @@
+This project contains a Tasker (Android) task used for interactive notifications from the SmartThings CoRE SmartApp.

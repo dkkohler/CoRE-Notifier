@@ -1,0 +1,362 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Task sr="task33">
+		<cdate>1489776670240</cdate>
+		<edate>1489927190033</edate>
+		<id>33</id>
+		<nme>CoRE Notifier</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%CN_ARGS</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>523</code>
+			<label>1 Action</label>
+			<Str sr="arg0" ve="3">%CN_ARGS1</Str>
+			<Str sr="arg1" ve="3">%CN_ARGS2</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_action_about</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>%CN_ARGS3</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">CoRE Notifier</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3">%CN_ARGS4</Str>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>523</code>
+			<label>No Actions</label>
+			<Str sr="arg0" ve="3">%CN_ARGS1</Str>
+			<Str sr="arg1" ve="3">%CN_ARGS2</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_action_about</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par2</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CN_URL</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">CoRE Notifier Error</Str>
+			<Str sr="arg1" ve="3">CoRE URL Missing (CN_URL)</Str>
+			<Img sr="arg2" ve="2">
+				<nme>cust_warning</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%CN_ARGS</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Str sr="arg2" ve="3">|</Str>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%CN_URL</Str>
+			<Str sr="arg1" ve="3">%par2</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%HTTPR</lhs>
+					<op>1</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Success</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">%CN_ARGS1</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">HTTP Error</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CN_URL</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>595</code>
+			<label>Set CoRE URL</label>
+			<Str sr="arg0" ve="3">CoRE URL</Str>
+			<Str sr="arg1" ve="3">%CN_URL</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">Variable Query</Str>
+			<Int sr="arg6" val="40"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CN_ARGS1</lhs>
+					<op>0</op>
+					<rhs>@CN</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">CoRE Notifier Error</Str>
+			<Str sr="arg1" ve="3">Parameter 1 is required.</Str>
+			<Img sr="arg2" ve="2">
+				<nme>cust_warning</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>356</code>
+			<Str sr="arg0" ve="3">%CN_ARGS</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CN_ARGS(#)</lhs>
+					<op>7</op>
+					<rhs>7</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>523</code>
+			<label>3 Actions</label>
+			<Str sr="arg0" ve="3">%CN_ARGS1</Str>
+			<Str sr="arg1" ve="3">%CN_ARGS2</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_action_about</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>%CN_ARGS3</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">CoRE Notifier</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3">%CN_ARGS4</Str>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>%CN_ARGS5</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">CoRE Notifier</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3">%CN_ARGS6</Str>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>%CN_ARGS7</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">CoRE Notifier</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3">%CN_ARGS8</Str>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CN_ARGS(#)</lhs>
+					<op>7</op>
+					<rhs>5</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>523</code>
+			<label>2 Actions</label>
+			<Str sr="arg0" ve="3">%CN_ARGS1</Str>
+			<Str sr="arg1" ve="3">%CN_ARGS2</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_action_about</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>%CN_ARGS3</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">CoRE Notifier</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3">%CN_ARGS4</Str>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>%CN_ARGS5</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">CoRE Notifier</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3">%CN_ARGS6</Str>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_aaa_ext_tiles_small</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CN_ARGS(#)</lhs>
+					<op>7</op>
+					<rhs>3</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+</TaskerData>
